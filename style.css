@@ -35,9 +35,6 @@ section { padding: 1.5rem 0; border-top: 1px solid var(--line); scroll-margin-to
 .hero, .page-title { border-top: 0; }
 h2 { margin: 0 0 0.75rem; }
 h3 { margin: 1.25rem 0 0.4rem; font-size: 1.05rem; }
-.timeline { list-style: none; padding: 0; }
-.timeline li { display: flex; gap: 1rem; margin-bottom: 0.75rem; }
-.timeline span { flex: 0 0 3rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 1rem 1.1rem; }
 .card h3 { margin: 0 0 0.4rem; font-size: 1.1rem; }
@@ -55,3 +52,11 @@ figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; }
 .gallery { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .logo.plot { background: #000; padding: 0; }
 .crumb { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.edu { list-style: none; margin: 0.5rem 0 0; padding: 0 0 0 1.1rem; border-left: 2px solid var(--line); }
+.edu li { position: relative; display: grid; grid-template-columns: 3.5rem 1fr; gap: 0.75rem; padding-bottom: 1.25rem; }
+.edu li:last-child { padding-bottom: 0; }
+.edu li::before { content: ""; position: absolute; left: calc(-1.1rem - 6px); top: 0.55rem; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+.edu-year { color: var(--muted); font-variant-numeric: tabular-nums; font-weight: 600; }
+.edu strong { display: block; line-height: 1.4; }
+.edu-place, .edu-sub { display: block; font-size: 0.95rem; }
+.edu-sub { color: var(--muted); }
