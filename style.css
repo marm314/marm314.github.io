@@ -60,3 +60,12 @@ figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; }
 .edu strong { display: block; line-height: 1.4; }
 .edu-place, .edu-sub { display: block; font-size: 0.95rem; }
 .edu-sub { color: var(--muted); }
+.hero {
+  margin-top: 1.5rem;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  background: linear-gradient(rgba(250, 250, 248, 0.5), rgba(250, 250, 248, 0.5)), url("assets/matrix_bg.jpg") center / cover;
+}
+@media (prefers-color-scheme: dark) {
+  .hero { background: linear-gradient(rgba(21, 21, 23, 0.82), rgba(21, 21, 23, 0.82)), url("assets/matrix_bg.jpg") center / cover; }
+}
