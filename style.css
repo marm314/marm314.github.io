@@ -53,3 +53,4 @@ figure { margin: 1rem 0; }
 figure img { max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
 figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; }
 .gallery { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.logo.plot { height: 72px; background: transparent; padding: 0; border-radius: 8px; }
