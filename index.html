@@ -10,74 +10,65 @@
 <body>
   <header class="site-header">
     <nav>
-      <a class="brand" href="#top">M. Rodríguez-Mayorga</a>
+      <a class="brand" href="index.html">M. Rodríguez-Mayorga</a>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#software">Software</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" aria-current="page">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="software.html">Software</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="top">
+  <main>
     <section class="hero">
-      <h1>Mauricio Rodríguez-Mayorga</h1>
-      <p class="lead">Theoretical and computational chemist<br>
-        Laboratoire de Physique Théorique, Université de Toulouse / CNRS, France</p>
+      <img class="portrait" src="assets/photo.jpg" alt="Portrait of Mauricio Rodríguez-Mayorga" width="160" height="160">
+      <div>
+        <h1>Mauricio Rodríguez-Mayorga</h1>
+        <p class="lead">Theoretical and computational chemist<br>
+          <a href="https://lpt.univ-tlse3.fr/">Laboratoire de Physique Théorique</a>, Université de Toulouse / CNRS, France</p>
+        <p>
+          <a href="http://orcid.org/0000-0003-0869-9787">ORCID</a> ·
+          <a href="https://www.researchgate.net/profile/Mauricio_Mayorga2">ResearchGate</a> ·
+          <a href="https://github.com/marm314">GitHub</a>
+        </p>
+      </div>
     </section>
 
     <section id="about">
       <h2>About</h2>
-      <p>I work on electronic structure theory, with a focus on reduced density matrix methods.</p>
+      <p>I work on electronic structure theory, with a focus on reduced density matrix methods:
+        <a href="research.html">relativistic density matrix functional theory</a>, correlation indicators,
+        model systems, conceptual DFT and machine learning in quantum chemistry.
+        Most of my <a href="software.html">code</a> is open source.</p>
+
+      <h3>Education</h3>
       <ul class="timeline">
-        <li><span>2012</span> Degree in Chemistry, Granada</li>
-        <li><span>2013</span> Master's, Girona</li>
-        <li><span>2018</span> PhD, Girona</li>
-        <li><span>2023</span> Master's in teacher training, Sevilla</li>
+        <li><span>2023</span> <a href="https://master.us.es/maes/">Master in Teacher Training in High-School, Baccalaureate, Vocational Training, and Languages</a>, <a href="http://www.us.es/">University of Sevilla</a></li>
+        <li><span>2018</span> <a href="http://www.urv.cat/masters_oficials/es_quimica_teorica.html">Doctor in Chemistry</a>, <a href="http://www.udg.edu">University of Girona</a>. Supervised by <a href="http://iqcc.udg.edu/portfolio/miquel-sola/">Prof. Dr. Miquel Solà</a> and <a href="https://ematito.dipc.org/">Dr. Eduard Matito</a>. Thesis: <a href="assets/thesis_mrm.pdf">Reduced density matrices: Development and chemical applications</a> (PDF)</li>
+        <li><span>2013</span> <a href="http://www.urv.cat/masters_oficials/es_quimica_teorica.html">Master in Theoretical and Computational Chemistry</a>, <a href="http://www.udg.edu">University of Girona</a></li>
+        <li><span>2012</span> Degree in Chemistry, <a href="http://www.ugr.es">University of Granada</a></li>
       </ul>
-    </section>
 
-    <section id="research">
-      <h2>Research</h2>
-      <ul>
-        <li>Relativistic density matrix functional theory</li>
-        <li>Correlation indicators</li>
-        <li>Model systems</li>
-        <li>Conceptual DFT</li>
-        <li>Machine learning in quantum chemistry</li>
-      </ul>
-      <h3>ReReDMFT (MC2021/22)</h3>
-      <p>A project to extend relativistic density matrix functional theory to heavy-element compounds.</p>
-    </section>
-
-    <section id="software">
-      <h2>Software</h2>
-      <h3>My programs</h3>
-      <ul>
-        <li>RHO_OPS</li>
-        <li>RHO2_OPS</li>
-        <li>DoNOF (standalone module)</li>
-      </ul>
-      <h3>Contributions</h3>
-      <p>MOLGW, ABINIT, QuAcK, and others.</p>
-    </section>
-
-    <section id="publications">
-      <h2>Publications</h2>
-      <p>Around 30 papers, 2015–2025. <em>Full list to be added.</em></p>
+      <h3>Outreach</h3>
+      <p>In January 2023 I gave a talk, “A chemistry laboratory in a computer?”, to high-school students at I.E.S. Chaves Nogales in Seville.</p>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p><em>Email, ORCID and ResearchGate links to be added.</em></p>
+      <ul>
+        <li>Email: <a href="mailto:marm3.14@gmail.com">marm3.14@gmail.com</a></li>
+        <li>ORCID: <a href="http://orcid.org/0000-0003-0869-9787">0000-0003-0869-9787</a></li>
+        <li><a href="https://www.researchgate.net/profile/Mauricio_Mayorga2">ResearchGate</a></li>
+        <li><a href="https://github.com/marm314">GitHub</a></li>
+      </ul>
     </section>
   </main>
 
   <footer>
     <p>&copy; <span id="year"></span> Mauricio Rodríguez-Mayorga</p>
   </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="site.js"></script>
 </body>
 </html>
