@@ -1,14 +1,18 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
-function renderPub(p) {
+function renderPub(p, plain) {
   const item = document.createElement('article');
   item.className = 'pub';
-  const a = document.createElement('a');
-  a.href = 'https://doi.org/' + p.doi;
-  a.textContent = p.title;
   const title = document.createElement('div');
   title.className = 'pub-title';
-  title.appendChild(a);
+  if (plain) {
+    title.textContent = p.title;
+  } else {
+    const a = document.createElement('a');
+    a.href = 'https://doi.org/' + p.doi;
+    a.textContent = p.title;
+    title.appendChild(a);
+  }
   const meta = document.createElement('div');
   meta.className = 'pub-meta';
   meta.textContent = p.authors + ' — ' + p.venue + ' (' + p.year + ')';
@@ -29,7 +33,7 @@ if (list || latest) {
     .then(r => r.json())
     .then(pubs => {
       if (latest) {
-        latest.replaceChildren(renderPub(pubs[0]));
+        latest.replaceChildren(renderPub(pubs[0], true));
       }
       if (list) {
         let year = null;
