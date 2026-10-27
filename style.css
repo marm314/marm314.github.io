@@ -48,9 +48,9 @@ h3 { margin: 1.25rem 0 0.4rem; font-size: 1.05rem; }
 .pub-meta { color: var(--muted); font-size: 0.9rem; }
 .badge { display: inline-block; margin-top: 0.2rem; padding: 0 0.5rem; font-size: 0.8rem; border: 1px solid var(--accent); color: var(--accent); border-radius: 999px; }
 footer { padding: 2rem 1rem; color: var(--muted); font-size: 0.9rem; }
-.logo { display: block; height: 56px; max-width: 100%; width: auto; object-fit: contain; background: #fff; border-radius: 6px; padding: 4px 8px; margin-bottom: 0.6rem; }
+.logo { display: block; width: 180px; height: 64px; max-width: 100%; object-fit: contain; object-position: left center; background: #fff; border-radius: 6px; padding: 6px 10px; margin-bottom: 0.7rem; }
 figure { margin: 1rem 0; }
 figure img { max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
 figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; }
 .gallery { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-.logo.plot { height: 72px; background: transparent; padding: 0; border-radius: 8px; }
+.logo.plot { width: auto; background: transparent; padding: 0; border-radius: 8px; }
