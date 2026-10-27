@@ -70,3 +70,4 @@ body {
 }
 @media (max-width: 800px) { body { background-attachment: scroll; } }
 .more { margin: 0.75rem 0 0; font-size: 0.95rem; }
+.logo-fig img { max-width: 200px; border: 0; background: transparent; }
