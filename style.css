@@ -54,3 +54,4 @@ figure img { max-width: 100%; height: auto; border-radius: 8px; border: 1px soli
 figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 0.3rem; }
 .gallery { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .logo.plot { background: #000; padding: 0; }
+.crumb { margin: 0; color: var(--muted); font-size: 0.9rem; }
