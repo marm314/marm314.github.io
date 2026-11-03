@@ -1,4 +1,5 @@
 [
+  {"n":31,"year":2026,"authors":"Bruneval F., Verzijl E., Förster A., Rodríguez-Mayorga M.","title":"GW reduced density matrix from iterated linearized Dyson equation","venue":"J. Chem. Phys. 165, 174114","doi":"10.1063/5.0352663"},
   {"n":30,"year":2025,"authors":"Johnson P.A., Fecteau C.-E., Nadeau S., Rodríguez-Mayorga M., Loos P.-F.","title":"Connections between Richardson–Gaudin states, perfect-pairing, and pair coupled-cluster theory","venue":"J. Chem. Phys. 163, 234115","doi":"10.1063/5.0305612"},
   {"n":29,"year":2025,"authors":"Verstraete M.J., Abreu J., Allemand G.E., … Rodríguez-Mayorga M., … Zwanziger J.","title":"Abinit 2025: New Capabilities for the Predictive Modeling of Solids and Nanomaterials","venue":"J. Chem. Phys. 163, 164126","doi":"10.1063/5.0288278"},
   {"n":28,"year":2025,"authors":"Rodríguez-Mayorga M., Loos P.-F., Bruneval F., Visscher L.","title":"Time-reversal symmetry in RDMFT and pCCD with complex-valued orbitals","venue":"J. Chem. Phys. 162, 054716","doi":"10.1063/5.0242504"},
