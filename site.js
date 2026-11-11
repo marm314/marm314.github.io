@@ -27,7 +27,7 @@ function renderPub(p) {
 const list = document.getElementById('pub-list');
 const latest = document.getElementById('latest-pub');
 if (list || latest) {
-  fetch('publications.json')
+  fetch('publications.json', {cache: 'no-cache'})
     .then(r => r.json())
     .then(pubs => {
       if (latest) {
