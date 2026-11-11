@@ -6,7 +6,7 @@ function renderPub(p) {
   const title = document.createElement('div');
   title.className = 'pub-title';
   const a = document.createElement('a');
-  a.href = 'https://doi.org/' + p.doi;
+  a.href = p.url || ('https://doi.org/' + p.doi);
   a.target = '_blank';
   a.rel = 'noopener noreferrer';
   a.textContent = p.title;
